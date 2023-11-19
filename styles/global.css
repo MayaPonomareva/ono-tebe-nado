@@ -38,3 +38,7 @@ img {
   padding: 0;
   text-decoration: none;
 }
+
+.header__address-list-item {
+  text-decoration: none;
+}
