@@ -42,3 +42,11 @@ img {
 .header__address-list-item {
   text-decoration: none;
 }
+
+.bet-button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
