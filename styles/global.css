@@ -50,3 +50,13 @@ img {
   color: inherit;
   background-color: transparent;
 }
+
+.lots__look-more-link {
+  text-decoration: none;
+}
+
+.footer__menu-link {
+  text-decoration: none;
+}
+
+
