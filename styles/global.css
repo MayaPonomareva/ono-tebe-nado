@@ -32,31 +32,3 @@ a {
 img {
   width: 100%;
 }
-
-.adress {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-.header__address-list-item {
-  text-decoration: none;
-}
-
-.bet-button {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-}
-
-.lots__look-more-link {
-  text-decoration: none;
-}
-
-.footer__menu-link {
-  text-decoration: none;
-}
-
-
