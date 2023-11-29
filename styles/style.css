@@ -19,19 +19,22 @@
   list-style: circle;
   flex-direction: row;
   justify-content: start;
-  text-transform: lowercase;
-  font-size: 18px;
   gap: 32px;
   color: #000;
   min-height: 21px;
   margin: 43px 0 45px;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item {
+  text-transform: lowercase;
+  font-size: 18px;
+}
+
+.header__links-list-item-no-bullit {
   list-style: none;
 }
 
-.header__link_active {
+.header__links-list-item-active {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
@@ -57,6 +60,8 @@
   width: 148px;
 }
 
+/* Конец лого */
+
 .address {
   display: flex;
   box-sizing: content-box;
@@ -67,35 +72,24 @@
   justify-content: start;
   align-items: start;
   font-family: Raleway, sans-serif;
-  font-style: normal;
 }
 
-.header__address-list {
+.address__list {
   list-style: none;
   font-size: 18px;
   text-decoration: none;
-}
-
-.address__list-item {
-  text-decoration: none;
-  line-height: 1.35;
-}
-
-.address__list-item-location {
-  display: flex;
   line-height: 24px;
 }
 
-/* Конец лого */
-
-.header__address-list-item {
+.address__list-item {
   display: flex;
   align-items: start;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
 
-.address {
+.address__list-item-location {
+  display: flex;
   font-style: normal;
 }
 
@@ -121,6 +115,7 @@
   background-size: cover;
   background-position: center;
 }
+
 .cover_title {
   position: relative;
   font-size: 100px;
@@ -213,7 +208,7 @@
 .lots__card-list-item {
   display: flex;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
 }
 
 .card-link {
@@ -394,7 +389,7 @@
   list-style-type: none;
   justify-content: space-between;
   width: 240px;
-  height: 48px;
+  align-items: start;
 }
 
 .footer__social-list-item {
