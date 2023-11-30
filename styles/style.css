@@ -64,10 +64,9 @@
 
 .address {
   display: flex;
-  box-sizing: content-box;
+  box-sizing: border-box;
   min-height: 97px;
   min-width: 240px;
-  padding: 5px 0 7px;
   text-decoration: none;
   justify-content: start;
   align-items: start;
