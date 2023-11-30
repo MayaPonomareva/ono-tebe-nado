@@ -8,6 +8,7 @@
 
 .header {
   display: flex;
+  box-sizing: border-box;
   min-width: 1340px;
   min-height: 109px;
   margin: 92px 49px 92px 51px;
@@ -15,6 +16,7 @@
 }
 
 .header__links-list {
+  box-sizing: border-box;
   display: flex;
   list-style: circle;
   flex-direction: row;
@@ -67,6 +69,7 @@
   box-sizing: border-box;
   min-height: 97px;
   min-width: 240px;
+  padding: 5px 0 7px;
   text-decoration: none;
   justify-content: start;
   align-items: start;
