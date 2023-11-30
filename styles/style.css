@@ -25,6 +25,7 @@
   color: #000;
   min-height: 21px;
   margin: 43px 0 45px;
+  word-wrap: nowrap;
 }
 
 .header__links-list-item {
@@ -74,6 +75,7 @@
   justify-content: start;
   align-items: start;
   font-family: Raleway, sans-serif;
+  word-wrap: normal;
 }
 
 .address__list {
