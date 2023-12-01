@@ -7,12 +7,18 @@
 }
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
   box-sizing: border-box;
   min-width: 1340px;
   min-height: 109px;
   margin: 92px 49px 92px 51px;
   align-items: center;
+}
+
+.header__menu {
+  display: grid;
+  justify-self: start;
 }
 
 .header__links-list {
@@ -24,8 +30,6 @@
   gap: 32px;
   color: #000;
   min-height: 21px;
-  margin: 43px 0 45px;
-  word-wrap: nowrap;
 }
 
 .header__links-list-item {
@@ -53,8 +57,8 @@
 
 .header__logo {
   display: flex;
-  padding-left: 209px;
-  padding-right: 355px;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__logo-image {
@@ -66,16 +70,12 @@
 /* Конец лого */
 
 .address {
-  display: flex;
-  box-sizing: border-box;
+  display: grid;
+  justify-items: end;
   min-height: 97px;
   min-width: 240px;
-  padding: 5px 0 7px;
   text-decoration: none;
-  justify-content: start;
-  align-items: start;
   font-family: Raleway, sans-serif;
-  word-wrap: normal;
 }
 
 .address__list {
@@ -83,6 +83,7 @@
   font-size: 18px;
   text-decoration: none;
   line-height: 24px;
+  align-self: end;
 }
 
 .address__list-item {
