@@ -17,7 +17,6 @@
 }
 
 .header__menu {
-  display: grid;
   grid-column-start: 1;
 }
 
@@ -56,7 +55,7 @@
 /* лого */
 
 .header__logo {
-  display: grid;
+  display: flex;
   grid-column-start: 2;
   align-items: center;
   justify-content: center;
@@ -71,9 +70,9 @@
 /* Конец лого */
 
 .address {
-  display: grid;
   grid-column-start: 3;
-  justify-items: end;
+  display: flex;
+  justify-content: end;
   min-height: 97px;
   min-width: 240px;
   text-decoration: none;
